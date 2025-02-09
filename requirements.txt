@@ -1,8 +1,23 @@
-transformers==4.36.2
-torch==2.1.2
+# Core packages
 streamlit==1.29.0
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
+transformers==4.36.2
 Pillow==10.1.0
 gTTS==2.4.0
+
+# Hugging Face and utilities
 huggingface-hub==0.20.1
 numpy==1.26.2
 python-dotenv==1.0.0
+accelerate==0.26.1
+safetensors==0.4.2
+
+# Additional dependencies
+requests==2.31.0
+tqdm==4.66.1
+packaging==23.2
+pyyaml==6.0.1
+regex==2023.10.3
+filelock==3.13.1
