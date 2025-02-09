@@ -1,34 +1,8 @@
-# Core dependencies
-streamlit>=1.24.0
-torch>=2.0.0
-torchvision>=0.15.0
-transformers>=4.30.0
-accelerate>=0.20.0
-
-# Image processing
-Pillow>=9.0.0
-
-# Audio processing
-gTTS>=2.3.0
-
-# Hugging Face
-huggingface-hub>=0.16.0
-tokenizers>=0.13.0
-
-# Utilities
-python-dotenv>=1.0.0
-numpy>=1.24.0
-tqdm>=4.65.0
-requests>=2.31.0
-packaging>=23.0
-pyyaml>=6.0
-regex>=2023.0
-filelock>=3.12.0
-
-# Optional: For improved performance
-sentencepiece>=0.1.99
-protobuf>=4.23.0
-safetensors>=0.3.1
-
-# Optional: For better image processing
-opencv-python-headless>=4.8.0
+transformers==4.36.2
+torch==2.1.2
+streamlit==1.29.0
+Pillow==10.1.0
+gTTS==2.4.0
+huggingface-hub==0.20.1
+numpy==1.26.2
+python-dotenv==1.0.0
